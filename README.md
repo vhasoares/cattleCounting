@@ -14,7 +14,7 @@ The code provided in this repository is for cattle counting tasks. It takes as i
 ### Python files of Cattle Counting Method
 
 - `setup.sh`: A file that, when executed, creates a virtualenv and installs all Python libraries needed to make our counting method work.
-- `requirement.txt`: A file that lists all libraries and versions needed to download and install.
+- `requirement`: A file that lists all libraries and versions needed to download and install.
 - `countingMethod.py`: The main class, which iterates through all images of the defined folder, performs the cattle counting, and returns the total.
 - `computeEdges.py`: Responsible for creating weighted edges based on cattle attributes, computing the probability of two cattle being the same.
 - `config.py`: Contains parameters, features, and general configuration used in the counting method.
